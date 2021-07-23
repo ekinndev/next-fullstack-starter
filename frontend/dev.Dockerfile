@@ -13,6 +13,6 @@ COPY . .
 VOLUME [ "/app/src" ]
 VOLUME [ "/app/public" ]
 
-EXPOSE 8080
+EXPOSE 3001
 
-CMD ["npm", "run", "serve"]
+CMD ["npm", "run", "dev"]

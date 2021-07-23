@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   mongodb:
     image: mongo
@@ -21,18 +21,18 @@ services:
     volumes:
       - ./backend/src:/app/src
   frontend:
-      image: frontend
-      build:
-        context: frontend
-        dockerfile: dev.Dockerfile
-      environment:
-        - HOST=0.0.0.0
-        - PORT=8080
-        - CHOKIDAR_USEPOLLING=true #For to work hot reload in windows
-      volumes:
-        - ./frontend/src:/app/src
-        - ./frontend/public:/app/public
-      ports:
-        - 8080:8080
-      expose:
-        - 8080
+    image: frontend
+    build:
+      context: frontend
+      dockerfile: dev.Dockerfile
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8080
+      - CHOKIDAR_USEPOLLING=true #For to work hot reload in windows
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+    ports:
+      - 3001:3001
+    expose:
+      - 3001
