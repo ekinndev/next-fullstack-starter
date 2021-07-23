@@ -1,0 +1,29 @@
+{
+  "name": "backend-starter-template",
+  "version": "1.0.0",
+  "description": "This is a dockerized express server template",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "NODE_ENV=development node ./bin/www",
+    "watch": "nodemon ./bin/www"
+  },
+  "author": "Ekin Abalioglu",
+  "license": "MIT",
+  "dependencies": {
+    "async-validator": "^3.5.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "mongoose": "^5.13.3",
+    "mongoose-autopopulate": "^0.14.0",
+    "passport": "^0.4.1",
+    "supertest": "^6.1.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
