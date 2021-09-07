@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "pretty-quick": "pretty-quick --staged"
+    "pretty-quick": "pretty-quick --staged",
+    "lint": "prettier --write ."
   },
   "author": "",
   "license": "ISC",
