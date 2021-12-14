@@ -11,19 +11,19 @@
     "author": "Ekin Abalioglu",
     "license": "MIT",
     "dependencies": {
-        "async-validator": "^3.5.2",
+        "async-validator": "^4.0.7",
         "cookie-parser": "^1.4.5",
         "cors": "^2.8.5",
         "debug": "^4.3.2",
-        "express": "^4.17.1",
+        "express": "^5.0.0-alpha.8",
         "jest": "^27.0.6",
-        "mongoose": "^5.13.3",
-        "mongoose-autopopulate": "^0.14.0",
-        "passport": "^0.4.1",
+        "mongoose": "^6.1.1",
+        "mongoose-autopopulate": "^0.16.0",
+        "passport": "^0.5.0",
         "supertest": "^6.1.4",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
-        "prettier": "^2.3.2"
+        "prettier": "^2.5.1"
     }
 }
