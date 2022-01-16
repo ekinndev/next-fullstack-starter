@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import styles from './Home.module.scss';
+import type { GetServerSideProps } from 'next';
 
 export default function Home() {
   const router = useRouter();
@@ -70,7 +71,7 @@ export default function Home() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
+export async function getServerSideProps<GetServerSideProps>({ locale = 'en' }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, ['common'])),
