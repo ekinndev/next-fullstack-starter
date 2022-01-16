@@ -16,11 +16,11 @@
         "cors": "^2.8.5",
         "debug": "^4.3.2",
         "express": "^5.0.0-alpha.8",
-        "jest": "^27.0.6",
-        "mongoose": "^6.1.1",
+        "jest": "^27.4.7",
+        "mongoose": "^6.1.6",
         "mongoose-autopopulate": "^0.16.0",
-        "passport": "^0.5.0",
-        "supertest": "^6.1.4",
+        "passport": "^0.5.2",
+        "supertest": "^6.2.1",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
