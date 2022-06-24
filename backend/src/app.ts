@@ -1,11 +1,12 @@
-const express = require('express');
+import express, { Request, Response } from 'express';
+
 const app = express();
-const exampleRoute = require('./routes/');
+import exampleRoute from './routes/';
 require('./mongo-connection');
 
 app.use('/ekin', exampleRoute);
 
-app.get('/', (req, res) => {
+app.get('/', (req: Request, res: Response) => {
     res.send('Hello World!');
 });
 

@@ -2,7 +2,7 @@ FROM node:16.13-alpine3.11
 
 WORKDIR /app
 
-RUN npm install nodemon -g
+RUN npm install tsc-watch -g
 
 COPY package.json package-lock.json ./
 
