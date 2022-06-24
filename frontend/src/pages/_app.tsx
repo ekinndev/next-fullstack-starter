@@ -1,4 +1,4 @@
-import '../styles/globals.scss';
+import '../styles/globals.css';
 import { Provider } from 'react-redux';
 import { appWithTranslation } from 'next-i18next';
 import store from '../store/store';

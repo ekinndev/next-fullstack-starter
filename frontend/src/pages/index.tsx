@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import styles from './Home.module.scss';
+import styles from './Home.module.css';
 import type { GetServerSideProps } from 'next';
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 className="text-2xl text-blue-400 border border-red-900">
           Welcome to
           <a href="https://nextjs.org"> Next.js2!!!!!!!</a>
         </h1>
