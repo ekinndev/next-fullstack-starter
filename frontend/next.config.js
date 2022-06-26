@@ -12,4 +12,8 @@ module.exports = {
 
     return config;
   },
+  reactStrictMode: true,
+  experimental: {
+    outputStandalone: true,
+  },
 };
