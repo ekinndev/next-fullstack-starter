@@ -63,6 +63,7 @@ This starter is created by my personal experience and also my taste.
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Playwright](https://playwright.dev/)
 - [MongoDb](https://www.mongodb.com/)
 - [Next-i18next](https://github.com/isaachinman/next-i18next)
 - [Jest](https://jestjs.io/)
