@@ -4,7 +4,8 @@
     "description": "This is a dockerized express server template",
     "main": "index.js",
     "scripts": {
-        "test": "jest --verbose --coverage",
+        "test": "jest --verbose ./src",
+        "test:coverage": "jest --verbose --coverage ./src",
         "start": "NODE_ENV=development node ./bin/www",
         "watch": "tsc-watch --outDir ./build  --onSuccess \"node ./bin/www\""
     },
