@@ -7,6 +7,7 @@
         "test": "jest --verbose ./src",
         "test:coverage": "jest --verbose --coverage ./src",
         "start": "NODE_ENV=development node ./bin/www",
+        "start:prod": "NODE_ENV=production node ./bin/www",
         "watch": "tsc-watch --outDir ./build  --onSuccess \"node ./bin/www\""
     },
     "author": "Ekin Abalioglu",
